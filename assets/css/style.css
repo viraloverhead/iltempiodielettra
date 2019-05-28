@@ -109,7 +109,7 @@ header , .social a:hover {
 }
 
 a.food-link:hover .menu-content h4 {
-    color: #FE7129;
+    color: #900608;
 }
 .about-item ,.single-blog ,.offer-card,.glorious .small-heading , .blog-right::after, .blog-left::after, .location-card{
     background: #1D1D1D;
@@ -250,14 +250,14 @@ header {
 .main-menu nav ul li a {
     color: #e1e1e1;
     display: block;
-    font-family: poppins;
+    font-family: "Open Sans";
     font-weight: 400;
     padding: 21px 12px;
     text-transform: capitalize;
 }
 
 .main-menu nav ul li.reservation a {
-    color: #FE7129;
+    color: #900608;
     font-weight: 600;
     position: relative;
     text-transform: uppercase;
@@ -281,11 +281,11 @@ header {
 }
 
 .main-menu nav ul li a:hover {
-    color: #FE7129;
+    color: #900608;
 }
 
 .main-menu nav ul li.active a {
-    color: #FE7129;
+    color: #900608;
 }
 
 /*===== mobile menu slicknav =====*/
@@ -348,7 +348,7 @@ header {
 }
 
 .slicknav_nav {
-  background: #FE7129;
+  background: #900608;
   float: right;
   margin-top: 1px !important;
   padding: 0;
@@ -360,7 +360,7 @@ header {
 .slicknav_nav a:hover {
   background: #161616 none repeat scroll 0 0;
   border-radius: 0;
-  color: #fe7129;
+  color: #900608;
 }
 
 .slicknav_nav a {
@@ -485,7 +485,7 @@ header {
 }
 
 .hero-area .owl-dot {
-    background: #fe7129 !important;
+    background: #900608 !important;
     border-radius: 50%;
     display: inline-block;
     height: 9px;
@@ -496,7 +496,7 @@ header {
 }
 
 .hero-area .owl-dot.active {
-  background:#fe7129 !important;
+  background:#900608 !important;
   opacity: 1;
 }
 
@@ -512,7 +512,7 @@ header {
 }
 
 .hero2 h1 span {
-    color: #fe7129;
+    color: #900608;
     font-weight: 800;
 }
 
@@ -534,9 +534,9 @@ header {
 }
 
 .theme-color1 {
-    background: #fe7129;
+    background: #900608;
     color: #FDFDFD;
-    font-family: poppins;
+    font-family: "Open Sans";
     font-weight: 500;
     line-height: 19px;
     padding: 15px 60px 15px 25px;
@@ -713,11 +713,11 @@ header {
 }
 
 .our-menu-list ul li:hover {
-    color: #fe7129;
+    color: #900608;
 }
 
 .our-menu-list .control.active {
-    color: #fe7129;
+    color: #900608;
 }
 
 .single-menu-item {
@@ -726,7 +726,7 @@ header {
 }
 
 .single-menu-item:hover .menu-content {
-    color: #fe7129;
+    color: #900608;
 }
 
 .menu-content {
@@ -793,7 +793,7 @@ header {
 }
 
 .app-item a:hover {
-    border: 2px solid #FE7129;
+    border: 2px solid #900608;
 }
 
 .app-icon {
@@ -874,7 +874,7 @@ header {
 }
 
 .single-blog a:hover {
-    color: #fe7129;
+    color: #900608;
 }
 
 .single-blog .theme-color1 {
@@ -885,7 +885,7 @@ header {
   color: #e1e1e1;
 }
 .main-blog a:hover {
-    color: #fe7129;
+    color: #900608;
 }
 /*  =============== 1.7 Blog Area End  ===========  */
 /*  ============== 1.8 Counter Area Start ========= */
@@ -925,7 +925,7 @@ header {
 }
 
 .single-counter  h4 {
-    color: #fe7129;
+    color: #900608;
 }
 
 /*  ============== 1.8 Counter Area End   =================== */
@@ -948,7 +948,7 @@ header {
 
 
 .photo-gallery .owl-nav button {
-    color: #FE7129 !important;
+    color: #900608 !important;
     font-size: 40px !important;
     height: 63px;
     line-height: 0 !important;
@@ -1010,7 +1010,7 @@ header {
 }
 
 .delicious-content span {
-    color: #fe7129;
+    color: #900608;
 }
 
 .delicious-content  h3 {
@@ -1074,7 +1074,7 @@ header {
 .one-item-content.text-center h4 {
   font-size: 20px;
   margin: 30px 0 10px;
-  color: #FE7129;
+  color: #900608;
 }
 
 .one-item-content.text-center h6 {
@@ -1090,7 +1090,7 @@ header {
 
 
 .all-client .owl-nav button {
-    color: #FE7129 !important;
+    color: #900608 !important;
     font-size: 27px !important;
     height: 40px;
     position: absolute;
@@ -1151,7 +1151,7 @@ header {
     align-items: center;
 }
 .corporate-client h2 {
-  color: #fe7129;
+  color: #900608;
   font-size: 30px;
   text-transform: capitalize;
 }
@@ -1188,7 +1188,7 @@ footer.footer-area.section-padding {
 
 
 .footer-content h4 {
-    color: #fe7129;
+    color: #900608;
     margin-bottom: 40px;
 }
 
@@ -1239,7 +1239,7 @@ footer.footer-area.section-padding {
 }
 
 .searchButton:hover {
-    color: #fe7129
+    color: #900608
 }
 
 
@@ -1259,7 +1259,7 @@ footer.footer-area.section-padding {
 
 .footer-follow  a:hover {
     background: #fff;
-    color: #fe7129;
+    color: #900608;
 }
 
 .hr {
@@ -1296,7 +1296,7 @@ footer.footer-area.section-padding {
 }
 
 .offer-card h2 {
-    color: #fe7129;
+    color: #900608;
 }
 
 .offer-card  h3 {
@@ -1304,7 +1304,7 @@ footer.footer-area.section-padding {
 }
 
 .offer-card span {
-    color: #fe7129;
+    color: #900608;
 }
 
 .offer-card p + p {
@@ -1422,7 +1422,7 @@ footer.footer-area.section-padding {
 }
 
 .social a {
-  background: #fe7129 none repeat scroll 0 0;
+  background: #900608 none repeat scroll 0 0;
   height: 40px;
   margin: 5px 0;
   padding: 6px;
@@ -1431,7 +1431,7 @@ footer.footer-area.section-padding {
     color: #fff
 }
 .social a:hover {
-  color: #fe7129;
+  color: #900608;
 }
 
 
@@ -1486,7 +1486,7 @@ footer.footer-area.section-padding {
 
 
 .page span {
-    color: #fe7129;
+    color: #900608;
     margin-left: 10px;
     text-transform: capitalize;
     font-weight: 600
@@ -1642,7 +1642,7 @@ footer.footer-area.section-padding {
 }
 
 .location-card .theme-color1.bg-none:hover {
-    color: #fe7129;
+    color: #900608;
 }
 
 .location-card .theme-color1 {
@@ -1708,7 +1708,7 @@ footer.footer-area.section-padding {
 }
 
 .pagination-area li a {
-    background: #fe7129;
+    background: #900608;
     padding: 6px 16px;
     color: #e1e1e1;
 }
@@ -1833,7 +1833,7 @@ footer.footer-area.section-padding {
 }
 
 .post-item a:hover {
-    color: #FE7129;
+    color: #900608;
 }
 
 .post-next {
@@ -1859,7 +1859,7 @@ footer.footer-area.section-padding {
 }
 
 .post-social a:hover {
-    color: #FE7129;
+    color: #900608;
 }
 
 .post-social a:first-child {
@@ -1892,7 +1892,7 @@ footer.footer-area.section-padding {
 }
 
 .post-plps li a:hover {
-    color: #FE7129;
+    color: #900608;
 }
 
 .related-post {
@@ -2002,7 +2002,7 @@ footer.footer-area.section-padding {
     font-weight: 700;
     padding: 10px 60px;
     font-size: 20px;
-    background: #FE7129;
+    background: #900608;
     border: none;
     margin-top: 20px;
     text-transform: capitalize;
@@ -2044,7 +2044,7 @@ footer.footer-area.section-padding {
 .follow .gym-btn.red {
     width: 80%;
     padding: 10px;
-    background: #FE7129;
+    background: #900608;
     border: none;
     font-weight: 700;
     text-transform: capitalize;
@@ -2070,7 +2070,7 @@ footer.footer-area.section-padding {
 }
 
 .resent-post:hover h6 {
-    color: #FE7129;
+    color: #900608;
 }
 
 .resent-post-content p {
@@ -2107,7 +2107,7 @@ footer.footer-area.section-padding {
 }
 
 .right-slider .owl-dot {
-    background: #fe7129 !important;
+    background: #900608 !important;
     display: inline-block;
     height: 4px;
     margin: 5px;
@@ -2130,7 +2130,7 @@ footer.footer-area.section-padding {
 
 
 .btn.btn-link {
-    color: #fe7129;
+    color: #900608;
     ;
     font-size: 16px;
     position: relative;
@@ -2165,7 +2165,7 @@ footer.footer-area.section-padding {
 
 .btn.btn-link.collapsed:hover {
     text-decoration: none;
-    color: #fe7129;
+    color: #900608;
 
 }
 

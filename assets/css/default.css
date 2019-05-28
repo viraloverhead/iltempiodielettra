@@ -65,7 +65,7 @@ h4 {
 }
 
 h5 {
-    color: #fe7129;
+    color: #900608;
     font-size: 18px;
     line-height: 16px;
 }
@@ -125,7 +125,7 @@ a {
 
 a:hover,
 a:active {
-    color: #FE7129;
+    color: #900608;
     text-decoration: none;
     outline: 0;
 }
@@ -173,7 +173,7 @@ h4,
 h5,
 h6 {
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans';
 }
 
 ul {

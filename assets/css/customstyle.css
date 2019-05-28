@@ -1,8 +1,8 @@
 /* CSS Document */
 
-.top-buffer { 
+.top-bottom-buffer { 
 	margin-top: 60px; 
-	margin-bottom: 30px;
+	margin-bottom: 60px;
 }
 
 .my-header {
