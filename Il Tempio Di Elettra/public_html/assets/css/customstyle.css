@@ -1,0 +1,24 @@
+/* CSS Document */
+
+.top-bottom-buffer { 
+	margin-top: 60px; 
+	margin-bottom: 60px;
+}
+
+.my-header {
+	font-family: "Open Sans";
+	font-size: 42px;
+}
+
+.my-footer-header {
+	font-family: "Open Sans";
+	font-size: 22px
+}
+
+.my-paragraph {
+	font-family: "Open Sans";
+}
+
+.my-footer-writings {
+	font-family: "Open Sans";
+}
