@@ -33,10 +33,19 @@ body {
 }
 
 .menu-img {
+    margin-left: 40px;
+    margin-bottom: 16px;
     overflow: hidden;
 }
 
+.menu-content {
+    margin-left: 40px;
+    margin-bottom: 12px;
+}
 
+.menu-price {
+    margin-left: 40px;
+}
 
 h1 {
     font-size: 56px;

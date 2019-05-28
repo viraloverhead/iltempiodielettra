@@ -673,20 +673,6 @@ header {
     overflow: hidden;
 }
 
-.our-menu-area::after {
-    background-image: url("../img/food-menu/food-men-bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    content: "";
-    height: 100%;
-    opacity: 0.5;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 270px;
-    z-index: -1;
-}
-
 .reservation-area .section-heading h2,
 .our-service .section-heading h2,
 .contact-form .section-heading h2,
@@ -722,7 +708,7 @@ header {
 
 .single-menu-item {
     align-items: center;
-    display: flex;
+    display: block;
 }
 
 .single-menu-item:hover .menu-content {
