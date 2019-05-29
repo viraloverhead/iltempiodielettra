@@ -22,3 +22,46 @@
 .my-footer-writings {
 	font-family: "Open Sans";
 }
+
+.mycard {
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  	max-width: 300px;
+ 	margin: auto;
+  	text-align: center;
+  	font-family: 'Open Sans';
+	background-color: #1d1d1d;
+	margin-bottom: 30px;
+	padding: 10px;
+}
+
+.price {
+	color: #A1A1A1A1;
+	font-size: 22px;
+	font-family: "Open Sans";
+}
+
+.mycard button {
+	border: none;
+	outline: 0;
+	padding: 12px;
+	color: #A1A1A1A1;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+	opacity: 0.7;
+}
+
+.mycard button:hover {
+	opacity: 0.9;
+	color: #900608;
+}
+
+.mycard p {
+	margin-top: 15px;
+}
+
+.mycard h3 {
+	margin-top: 15px;
+}
