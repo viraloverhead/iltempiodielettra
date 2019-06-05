@@ -5,9 +5,25 @@
 	margin-bottom: 60px;
 }
 
+.bottom-buffer {
+	margin-bottom: 60px;
+}
+
+.top-bottom-buffer-min { 
+	margin-top: 60px; 
+	margin-bottom: 30px;
+}
+
 .my-header {
 	font-family: "Open Sans";
 	font-size: 42px;
+}
+
+.my-header-vsm {
+	font-family: "Open Sans";
+	font-weight: bold;
+	font-size: 18px;
+
 }
 
 .my-footer-header {
@@ -32,6 +48,7 @@
 	background-color: #1d1d1d;
 	margin-bottom: 30px;
 	padding: 10px;
+	padding-top: 20px;
 }
 
 .price {
@@ -64,4 +81,18 @@
 
 .mycard h3 {
 	margin-top: 15px;
+}
+
+.accordioncard {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+	font-family: 'Open Sans';
+	margin-bottom: 15px;
+    /*border-radius: .25rem;*/
 }
