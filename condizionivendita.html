@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Chi sono</title>
+<title>Condizione di vendita</title>
 <link rel="shortcut icon" type="image/png" href="assets/img/logo/favicon.ico">
 <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
 <link rel="stylesheet" href="assets/css/fontawesome.min.css">
@@ -37,7 +37,7 @@
           <nav class="nav-menu">
             <ul id="navigation">
               <li><a href="index.html">Home</a></li>
-              <li class="active"><a href="about.html">Chi Sono</a></li>
+              <li><a href="about.html">Chi Sono</a></li>
               <li><a href="prodotti.html">Prodotti</a></li>
               <li><a href="novita.html">Novità</a></li>
               <li><a href="offerte.html">Offerte</a></li>
@@ -53,36 +53,16 @@
 </header>
 <!--========= header area end ========== --> 
 
-
-    <!-- ========== Chi sono area Start =========== -->
-    <section class="ourmission-area section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3  wow fadeInDown">
-                    <div class="section-heading mb-30">
-                    
-                        <h2>Chi sono</h2>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row no-gutters blog-left mt-30 wow fadeInUp">
-                <div class="col-lg-6">
-                    <div class="mission-img">
-                        <div class="overflow-hide">
-                            <img src="assets/img/about/mission.jpg" alt="about-team">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="mission-content">
-<p class="bt-hr">Aque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem </p>
-                    </div>
-                </div>
-            </div>
+<!-- ========= Condizioni vendita contenuto area start =========== -->
+<div class="container">
+	<div class="row align-items-center text-center">
+		<div class="col-lg-12 text-justify top-bottom-buffer">
+			<p class="top-bottom-buffer">INSERIRE CONTENUTO</p>
+		</div>
+	</div>
 </div>
-    </section>
-    <!-- ========== Chi sono  Area End =========== -->
+<!-- ========= Condizioni vendita contenuto area end =========== --> 
+
 <!-- ========== Footer Area Start   ============-->
 <footer class="footer-area section-padding">
   <div class="container">
@@ -101,7 +81,7 @@
           <h4 class="my-footer-header">Servizio Vendita</h4>
           <ul>
             <li><a href="modalitaspedizione.html">Modalità Spedizione</a></li>
-            <li><a href="condizionivendita.html">Condizioni Vendita Online</a></li>
+            <li class="selected"><a href="condizionivendita.html">Condizioni Vendita Online</a></li>
             <li><a href="faq.html">F.A.Q.</a></li>
             <li><a href="metodipagamento.html">Metodi di Pagamento</a></li>
             <li><a href="resirimborsi.html">Resi e Rimborsi</a></li>
@@ -130,14 +110,49 @@
 </footer>
 
 <!-- ========== Footer Area End ============--> 
-    <script src="assets/js/vendor/jquery-3.3.1.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/fontawesome.min.js"></script>
-    <script src="assets/js/slicknav.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <script src="assets/js/main.js"></script>
-</body>
+<script src="assets/js/vendor/jquery-3.3.1.min.js"></script> 
+<script src="assets/js/bootstrap.min.js"></script> 
+<script src="assets/js/jquery.magnific-popup.min.js"></script> 
+<script src="assets/js/imagesloaded.pkgd.min.js"></script> 
+<script src="assets/js/owl.carousel.min.js"></script> 
+<script src="assets/js/fontawesome.min.js"></script> 
+<script src="assets/js/counterup.js"></script> 
+<script src="assets/js/slicknav.min.js"></script> 
+<script src="assets/js/wow.min.js"></script> 
+<script src="assets/js/isotope.pkgd.min.js"></script> 
+<script src="assets/js/main.js"></script> 
+<script>
+        //isotop filtering
+        $('#mesonary-nav').on('click', 'li', function() {
+            var filterValue = $(this).attr('data-filter');
+            $grid.isotope({
+                filter: filterValue
+            });
+        });
+        var $grid = $('.grid').isotope({
+            itemSelector: '.grid-item',
+            layoutMode: 'masonry',
+            masonry: {
+                columnWidth: 1
+            }
+        });
+        // filtering li active
+        $('.control').on("click", function() {
+            if ($(this).hasClass('active')) {
+                $(this).removeClass('active');
+            } else {
+                $(this).addClass('active');
+                $(this).siblings().removeClass('active');
+            }
+        });
+        // Image gallery
+        $(".lightbox").magnificPopup({
+            type: 'image',
+            gallery: {
+                enabled: true
+            }
+        });
 
+    </script>
+</body>
 </html>

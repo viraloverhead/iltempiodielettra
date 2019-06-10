@@ -1425,7 +1425,7 @@ footer.footer-area.section-padding {
 /*============== 1.1 About-us page Start  ===========*/
 
 .page {
-    background-image: url(../img/hero/hero-bg1.jpg);
+    /*background-image: url(../img/hero/hero-bg1.jpg);*/
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
