@@ -344,15 +344,17 @@ header {
 }
 
 .slicknav_icon-bar {
-    background: #EF7129 !important;
+    background: #A1A1A1 !important;
 }
 
 .slicknav_nav {
-  background: #900608;
+  /*background: #900608;*/
+  background: #1d1d1d;
   float: right;
   margin-top: 1px !important;
   padding: 0;
   width: 92%;
+  opacity: 0.9;
 }
 
 

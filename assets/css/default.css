@@ -231,7 +231,8 @@ ul {
     align-items: center;
     justify-content: center;
     /*background: radial-gradient(#222, black);*/
-    background: #0B1424;
+    /*background: #0B1424;*/
+    background: #000;
 }
 
 .loader {
