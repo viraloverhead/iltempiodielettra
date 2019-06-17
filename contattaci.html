@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Resi e rimborsi</title>
+<title>Scrivici una mail</title>
 <link rel="shortcut icon" type="image/png" href="assets/img/logo/favicon.ico">
 <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
 <link rel="stylesheet" href="assets/css/fontawesome.min.css">
@@ -54,15 +54,65 @@
 </header>
 <!--========= header area end ========== --> 
 
-<!-- ========= Resi e rimborsi contenuto area start =========== -->
-<div class="container">
-	<div class="row align-items-center text-center">
-		<div class="col-lg-12 text-justify top-bottom-buffer">
-			<p class="top-bottom-buffer">INSERIRE CONTENUTO</p>
+	<div class="page">
+		<div class="text-white text-center py-2">
+			<h2><i class="fa fa-envelope"></i> Contattaci</h2>
+			<p class="m-0">Scrivimi una mail per qualasiasi dubbio o informazione!</p>
+		</div>
+		<div class="container inviamail top-bottom-buffer-min">
+			<div class="row justify-content-center">
+				<div class="col-12 col-md-10 col-lg-8 pb-5">
+
+							<!--Form with header-->
+
+					<form action="mail.php" method="post">
+						<div class="card rounded-0">
+							<div class="card-header p-0">
+
+							</div>
+							<div class="card-body p-3">
+
+								<!--Body-->
+								<div class="form-group">
+									<div class="input-group mb-2">
+										<div class="input-group-prepend">
+											<div class="input-group-text"><i class="fa fa-user"></i></div>
+										</div>
+										<input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nome e Cognome" required>
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="input-group mb-2">
+										<div class="input-group-prepend">
+											<div class="input-group-text"><i class="fa fa-envelope"></i></div>
+										</div>
+										<input type="email" class="form-control" id="nombre" name="email" placeholder="esempio@mail.com" required>
+									</div>
+								</div>
+
+								<div class="form-group">
+									<div class="input-group mb-2">
+										<div class="input-group-prepend">
+											<div class="input-group-text"><i class="fa fa-comment"></i></div>
+										</div>
+										<textarea style="margin-top: 0px;" class="form-control" placeholder="Scrivi il tuo messaggio" required></textarea>
+									</div>
+								</div>
+
+								<div class="text-center">
+									<button>Invia</button>
+								</div>
+							</div>
+
+						</div>
+					</form>
+					<!--Form with header-->
+
+
+				</div>
+			</div>
 		</div>
 	</div>
-</div>
-<!-- ========= Resi e rimborsi contenuto area end =========== --> 
 
 <!-- ========== Footer Area Start   ============-->
 <footer class="footer-area section-padding">
@@ -73,7 +123,7 @@
           <h4 class="my-footer-header">Servizio Clienti</h4>
           <ul>
             <li><a href="domandefrequenti.html">Domande più Frequenti</a></li>
-            <li><a href="contattaci.html">Scrivici una Mail</a></li>
+            <li class="selected"><a href="contattaci.html">Scrivici una Mail</a></li>
           </ul>
         </div>
       </div>
@@ -85,7 +135,7 @@
             <li><a href="condizionivendita.html">Condizioni Vendita Online</a></li>
             <li><a href="faq.html">F.A.Q.</a></li>
             <li><a href="metodipagamento.html">Metodi di Pagamento</a></li>
-            <li class="selected"><a href="resirimborsi.html">Resi e Rimborsi</a></li>
+            <li><a href="resirimborsi.html">Resi e Rimborsi</a></li>
           </ul>
         </div>
       </div>
@@ -111,49 +161,14 @@
 </footer>
 
 <!-- ========== Footer Area End ============--> 
-<script src="assets/js/vendor/jquery-3.3.1.min.js"></script> 
-<script src="assets/js/bootstrap.min.js"></script> 
-<script src="assets/js/jquery.magnific-popup.min.js"></script> 
-<script src="assets/js/imagesloaded.pkgd.min.js"></script> 
-<script src="assets/js/owl.carousel.min.js"></script> 
-<script src="assets/js/fontawesome.min.js"></script> 
-<script src="assets/js/counterup.js"></script> 
-<script src="assets/js/slicknav.min.js"></script> 
-<script src="assets/js/wow.min.js"></script> 
-<script src="assets/js/isotope.pkgd.min.js"></script> 
-<script src="assets/js/main.js"></script> 
-<script>
-        //isotop filtering
-        $('#mesonary-nav').on('click', 'li', function() {
-            var filterValue = $(this).attr('data-filter');
-            $grid.isotope({
-                filter: filterValue
-            });
-        });
-        var $grid = $('.grid').isotope({
-            itemSelector: '.grid-item',
-            layoutMode: 'masonry',
-            masonry: {
-                columnWidth: 1
-            }
-        });
-        // filtering li active
-        $('.control').on("click", function() {
-            if ($(this).hasClass('active')) {
-                $(this).removeClass('active');
-            } else {
-                $(this).addClass('active');
-                $(this).siblings().removeClass('active');
-            }
-        });
-        // Image gallery
-        $(".lightbox").magnificPopup({
-            type: 'image',
-            gallery: {
-                enabled: true
-            }
-        });
-
-    </script>
+    <script src="assets/js/vendor/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/fontawesome.min.js"></script>
+    <script src="assets/js/slicknav.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
+
 </html>

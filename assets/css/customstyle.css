@@ -57,7 +57,15 @@
 	font-family: "Open Sans";
 }
 
-.mycard button {
+.inviamail {
+	font-family: "Open Sans";
+}
+
+.inviamail input, .inviamail textarea {
+	font-size: 14px;
+}
+
+.mycard button, .inviamail button, .carrellobuttons button {
 	border: none;
 	outline: 0;
 	padding: 12px;
@@ -70,7 +78,7 @@
 	opacity: 0.7;
 }
 
-.mycard button:hover {
+.mycard button:hover, .inviamail button:hover, .carrellobuttons button:hover {
 	opacity: 0.9;
 	color: #900608;
 }
